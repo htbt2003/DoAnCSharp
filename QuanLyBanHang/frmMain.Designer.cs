@@ -31,7 +31,6 @@ namespace QuanLyBanHang
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.pnMenu = new Guna.UI2.WinForms.Guna2Panel();
             this.btnTaiKhoan = new Guna.UI2.WinForms.Guna2GradientButton();
             this.lblEmail = new System.Windows.Forms.Label();
@@ -44,24 +43,16 @@ namespace QuanLyBanHang
             this.btnNhanVien = new Guna.UI2.WinForms.Guna2GradientButton();
             this.lbl1 = new System.Windows.Forms.Label();
             this.pcbIcon = new System.Windows.Forms.PictureBox();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panelControl = new System.Windows.Forms.Panel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.menuTaiKhoan = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.itemThongTinNV = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.itemDoiMatKhau = new System.Windows.Forms.ToolStripMenuItem();
-            this.guna2DragControl4 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.pnMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbIcon)).BeginInit();
             this.menuTaiKhoan.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this;
             // 
             // pnMenu
             // 
@@ -303,24 +294,6 @@ namespace QuanLyBanHang
             this.pcbIcon.TabIndex = 2;
             this.pcbIcon.TabStop = false;
             // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl1.TargetControl = this;
-            this.guna2DragControl1.UseTransparentDrag = true;
-            // 
-            // guna2DragControl2
-            // 
-            this.guna2DragControl2.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl2.TargetControl = this.pnMenu;
-            this.guna2DragControl2.UseTransparentDrag = true;
-            // 
-            // guna2DragControl3
-            // 
-            this.guna2DragControl3.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl3.TargetControl = this.panelControl;
-            this.guna2DragControl3.UseTransparentDrag = true;
-            // 
             // panelControl
             // 
             this.panelControl.BackgroundImage = global::QuanLyBanHang.Properties.Resources.fpt;
@@ -354,7 +327,7 @@ namespace QuanLyBanHang
             this.itemDoiMatKhau});
             this.menuTaiKhoan.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuTaiKhoan.Name = "contextMenuStrip1";
-            this.menuTaiKhoan.Size = new System.Drawing.Size(240, 78);
+            this.menuTaiKhoan.Size = new System.Drawing.Size(240, 106);
             // 
             // itemThongTinNV
             // 
@@ -377,11 +350,6 @@ namespace QuanLyBanHang
             this.itemDoiMatKhau.Size = new System.Drawing.Size(239, 34);
             this.itemDoiMatKhau.Text = "Đổi mật khẩu";
             this.itemDoiMatKhau.Click += new System.EventHandler(this.itemDoiMatKhau_Click);
-            // 
-            // guna2DragControl4
-            // 
-            this.guna2DragControl4.DockIndicatorTransparencyValue = 0.6D;
-            this.guna2DragControl4.UseTransparentDrag = true;
             // 
             // frmMain
             // 
@@ -408,10 +376,7 @@ namespace QuanLyBanHang
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Panel pnMenu;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private System.Windows.Forms.PictureBox pcbIcon;
         private System.Windows.Forms.Label lbl1;
         private Guna.UI2.WinForms.Guna2GradientButton btnNhanVien;
@@ -421,15 +386,12 @@ namespace QuanLyBanHang
         private Guna.UI2.WinForms.Guna2GradientButton btnKhachHang;
         private Guna.UI2.WinForms.Guna2GradientButton btnLogin;
         private System.Windows.Forms.Panel panelControl;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
         private Guna.UI2.WinForms.Guna2GradientButton btnTaiKhoan;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.ContextMenuStrip menuTaiKhoan;
         private System.Windows.Forms.ToolStripMenuItem itemThongTinNV;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem itemDoiMatKhau;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl4;
         private Guna.UI2.WinForms.Guna2GradientButton btnDonHang;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
     }

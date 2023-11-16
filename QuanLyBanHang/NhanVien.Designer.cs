@@ -101,7 +101,7 @@
             // mtxtSDT
             // 
             this.mtxtSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mtxtSDT.Location = new System.Drawing.Point(182, 135);
+            this.mtxtSDT.Location = new System.Drawing.Point(195, 135);
             this.mtxtSDT.Margin = new System.Windows.Forms.Padding(0);
             this.mtxtSDT.Mask = "0000000000";
             this.mtxtSDT.Name = "mtxtSDT";
@@ -186,7 +186,7 @@
             this.txtMaNV.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.txtMaNV.ForeColor = System.Drawing.Color.Black;
             this.txtMaNV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaNV.Location = new System.Drawing.Point(182, 20);
+            this.txtMaNV.Location = new System.Drawing.Point(195, 20);
             this.txtMaNV.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.PasswordChar = '\0';
@@ -209,7 +209,7 @@
             // txtDiaChi
             // 
             this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiaChi.Location = new System.Drawing.Point(182, 239);
+            this.txtDiaChi.Location = new System.Drawing.Point(195, 239);
             this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(400, 43);
@@ -228,7 +228,7 @@
             this.txtTenNV.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenNV.ForeColor = System.Drawing.Color.Black;
             this.txtTenNV.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTenNV.Location = new System.Drawing.Point(182, 73);
+            this.txtTenNV.Location = new System.Drawing.Point(195, 73);
             this.txtTenNV.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtTenNV.Name = "txtTenNV";
             this.txtTenNV.PasswordChar = '\0';
@@ -271,7 +271,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtEmail.Location = new System.Drawing.Point(182, 182);
+            this.txtEmail.Location = new System.Drawing.Point(195, 182);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';

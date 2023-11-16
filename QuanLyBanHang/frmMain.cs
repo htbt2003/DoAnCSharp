@@ -27,7 +27,6 @@ namespace QuanLyBanHang
 
         private void Main_Load(object sender, EventArgs e)
         {
-            //menuHuongDan.Cursor = Cursors.Hand;
             menuTaiKhoan.Cursor = Cursors.Hand;
             btnDonHang.Visible = false;
         }
